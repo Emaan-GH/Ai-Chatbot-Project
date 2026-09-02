@@ -83,12 +83,12 @@ st.markdown("""
 
 
 st.markdown(
-    '<div class="main-title">💬 Your Custom ChatGPT</div>',
+    '<div class="main-title">💬 Your Fashion AI</div>',
     unsafe_allow_html=True
 )
 
 st.markdown(
-    '<div class="subtitle">Your personal AI assistant powered by OpenAI</div>',
+    '<div class="subtitle">Your personal Fashion assistant powered by OpenAI</div>',
     unsafe_allow_html=True
 )
 
