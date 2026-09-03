@@ -386,58 +386,6 @@ if (
 # --------------------------------------------------
 
 else:
-    st.markdown(
-        """
-        <div style="
-            text-align:center;
-            margin-top:120px;
-            padding:40px;
-        ">
-
-            <div style="
-                font-size:80px;
-                margin-bottom:20px;
-            ">
-                👗✨
-            </div>
-
-            <h1 style="
-                color:#5b21b6;
-                font-size:42px;
-                font-weight:800;
-                margin-bottom:10px;
-            ">
-                Welcome to Your Fashion AI
-            </h1>
-
-            <p style="
-                color:#4b5563;
-                font-size:19px;
-                margin-bottom:30px;
-            ">
-                Your personal AI fashion stylist
-            </p>
-
-            <div style="
-                display:inline-block;
-                padding:15px 30px;
-                border-radius:30px;
-                background:#f3e8ff;
-                color:#4c1d95;
-                font-size:16px;
-                font-weight:600;
-            ">
-                👗 Outfit Ideas
-                &nbsp;&nbsp; • &nbsp;&nbsp;
-                🎨 Color Matching
-                &nbsp;&nbsp; • &nbsp;&nbsp;
-                👠 Styling
-                &nbsp;&nbsp; • &nbsp;&nbsp;
-                ✨ Trends
-            </div>
-
-        </div>
-        """,
-        unsafe_allow_html=True
+    st.info(
+        "🔐 Please enter a valid OpenAI API key from the sidebar to start your Fashion AI."
     )
-
